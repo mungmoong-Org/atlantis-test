@@ -1,7 +1,7 @@
 module "vpc" {
   source = "git::https://github.com/terraform-aws-modules/terraform-aws-vpc.git?ref=v2.18.0"
 
-  name = "roh-vpc"
+  name = "roh-vpc2"
   cidr = "10.0.0.0/16"
 
   azs             = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
